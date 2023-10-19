@@ -1,11 +1,12 @@
-"use client"
-import React from 'react';
-import Cipher from './components/Cipher';
+import React from 'react'
+import Home from './components/Cipher'
+import Home2 from './components/lab2'
 
-export default function Home() {
+function page() {
   return (
-    <div>
-      <Cipher />
-    </div>
-  );
+    // <Home/>
+    <Home2/>
+  )
 }
+
+export default page
