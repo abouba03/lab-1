@@ -94,7 +94,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center  justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md">
         <h1 className="text-2xl font-bold mb-4">
           Carré de Polybe - {isEncryptMode ? "Chiffrement" : "Déchiffrement"}
@@ -120,7 +120,7 @@ export default function Home() {
           className="bg-gray-500 text-white py-2 px-4 rounded-md"
           onClick={handleModeChange}
         >
-          Passer en mode {isEncryptMode ? "Déchiffrement" : "Chiffrement"}
+          Passer en mode: {isEncryptMode ? "Déchiffrement" : "Chiffrement"}
         </button>
         {result && (
           <div className="mt-4">
