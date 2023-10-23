@@ -1,11 +1,15 @@
 import React from 'react'
-import Home from './components/Cipher'
-import Home2 from './components/lab2'
+
+
+import Link from 'next/link'
 
 function page() {
   return (
-    // <Home/>
-    <Home2/>
+    <>
+      
+      
+    </>
+    // 
   )
 }
 
